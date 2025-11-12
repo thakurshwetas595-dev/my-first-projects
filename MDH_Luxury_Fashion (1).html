@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MDH Luxury Fashion</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #fafafa;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(135deg, #111, #444);
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 1.8rem;
+      letter-spacing: 2px;
+      font-weight: 600;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 0;
+      padding: 1rem;
+      text-align: center;
+      background: #f7f7f7;
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #111;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>✨ MDH Luxury Fashion ✨</header>
+  <section class="gallery">
+    <div class="card"><img src="images/img1.jpg" alt="IMG-1 Luxury"><h3>IMG-1 Luxury</h3></div>
+    <div class="card"><img src="images/img2.jpg" alt="IMG-2 Classic"><h3>IMG-2 Classic</h3></div>
+    <div class="card"><img src="images/img3.jpg" alt="IMG-3 Elegant"><h3>IMG-3 Elegant</h3></div>
+    <div class="card"><img src="images/img4.jpg" alt="IMG-4 Bold"><h3>IMG-4 Bold</h3></div>
+    <div class="card"><img src="images/img5.jpg" alt="IMG-5 Modern"><h3>IMG-5 Modern</h3></div>
+    <div class="card"><img src="images/img6.jpg" alt="IMG-6 Premium"><h3>IMG-6 Premium</h3></div>
+    <div class="card"><img src="images/img7.jpg" alt="IMG-7 Style"><h3>IMG-7 Style</h3></div>
+    <div class="card"><img src="images/img8.jpg" alt="IMG-8 Vogue"><h3>IMG-8 Vogue</h3></div>
+    <div class="card"><img src="images/img9.jpg" alt="IMG-9 Royal"><h3>IMG-9 Royal</h3></div>
+    <div class="card"><img src="images/img10.jpg" alt="IMG-10 Elite"><h3>IMG-10 Elite</h3></div>
+  </section>
+  <footer>© 2025 MDH Luxury Store. All Rights Reserved.</footer>
+</body>
+</html>
